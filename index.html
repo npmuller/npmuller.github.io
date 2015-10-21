@@ -3,107 +3,39 @@
 <!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
 <!--[if IE 8]><html class="preIE9"><![endif]-->
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
- <head>
-  <meta charset="UTF-8">
-  <title>GTDU Alumni</title>
-  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <style type='text/css'>
-    h1 { 
-      display: block;
-      font-size: 2em;
-      margin-top: 0.65em;
-      margin-bottom: 0.49em;
-      margin-left: .7em;
-      margin-right: 0;
-      font-weight: bold;
-      font-family: 'Lora', serif;
-      font-size: 50px;
-    }
-    
-    footer {
-      font-size: 9px;
-      font-family: 'Lora', serif;
-      color: #E6E6E6
-      text-align:center;
-    }
-    
-    p {
-    	text-align:center;
-    	margin-right: 17%;
-    }
-    
-    .bodyText {
-      position:absolue;
-      height:470px;
-      width:300px;
-      float:left;
-      margin:20px;
-      text-align:left;
-      font-family: 'Lora', serif;
-      font-size: 13px;
-    }
-    
-    .banner {
-      width:auto
-      height:250px;
-    }
-    
-    .buffer {
-      height:300px;
-      width:10px;
-      float:left;
-    }
-    
-    .buttonDiv {
-      height:150px;
-      width:313px;
-      float:left;
-    }
-    
-    #wrapper {
-      width:950px;
-    }
-    
-    #buttonWrapper {
-      position:relative;
-      left:100px;
-      height:auto;
-      width:630px;
-    }
-    
-    html {
-    	background: rgb(67, 119, 167);
-    }
-  </style>
- </head>
- <body>
-  <div id="wrapper">
-    <div name="leftPad" class="bodyText">&nbsp;</div>
-    <div name="leftText" class="bodyText">
-      	<img src="stylizedDU.png" />
-    </div>
-    <div name="centerPad" class="buffer">&nbsp;</div>
-   </div>
-   <div id="buttonWrapper">
-    <div class="buttonDiv">&nbsp;</div>
-    <div class="buttonDiv">
-     <form id="pay">
-	  <input type="hidden" name="cmd" value="_s-xclick">
-	  <input type="hidden" name="hosted_button_id" value="G6QA9WYP3VSDY">
-	  <button form="pay" type="submit" formaction="https://www.paypal.com/cgi-bin/webscr" formmethod="post" formtarget="_blank" class="btn btn-lg btn-default">
-	   Donate!
-	  </button>
-	  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-     </form>
-     <br/>
-     <footer>
-      <p>Delta Upsilon Continuum of Education</p>
-      <p>Email: <a href="mailto:deltauce@gmail.com" style="color: white">
-         deltauce@gmail.com</a>.</p>
-     </footer>
-    </div>
-    <div class="buttonDiv">&nbsp;</div>
-   </div>
- </body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GTDU Alumni</title>
+        <link href="http://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="duceSite.css">
+    </head>
+    <body>
+        <div id="bigWrapper">
+            <div id="wrapper">
+                <div name="leftPad" class="bodyText">&nbsp;</div>
+                <div name="banner" class="bodyText">
+                    <img class="banner" src="stylizedDU.png">
+                </div>
+                <div name="rightPad" class="buffer">&nbsp;</div>
+                <div id="buttonWrapper">
+                    <form id="pay" class="payForm">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="G6QA9WYP3VSDY">
+                        <button form="pay" type="submit" formaction="https://www.paypal.com/cgi-bin/webscr" formmethod="post" formtarget="_blank" class="btn btn-lg btn-default">
+                        Donate
+                        </button>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    <footer>
+                        <p>Delta Upsilon Continuum of Education</p>
+                        <p>Email: <a href="mailto:deltauce@gmail.com" style="color: white">
+                            deltauce@gmail.com</a>.
+                        </p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
