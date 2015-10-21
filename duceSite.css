@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(67, 119, 167)!important;
+}
+
+/*.banner {
+    width: auto;
+    height: 250px;
+}*/
+
+.buffer {
+    height: 80%;
+    width: 34%;
+    float: right;
+}
+
+#bigWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+}
+
+.bodyText {
+    height: 80%;
+    width: 33%;
+    float: left;
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-size: 13px;
+}
+
+.banner {
+    vertical-align: middle;
+    margin-left: 17%;
+    margin-top: 15%;
+}
+
+#buttonWrapper {
+    position: relative;
+    height: 20%;
+    width: 100%;
+}
+
+.payForm {
+    width: 10%;
+    vertical-align: middle;
+    margin-left: 46%;
+}
+
+footer {
+    font-size: 9px;
+    font-family: 'Lora', serif;
+    margin-left: 13%;
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    margin-right: 15%;
+}
