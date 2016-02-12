@@ -51,7 +51,7 @@ body {
     margin-left: 46%;
 }
 
-footer, footer a {
+footer {
     font-size: 9px;
     font-family: 'Lora', serif;
     margin-left: 12%;
@@ -59,4 +59,12 @@ footer, footer a {
     color: white;
     text-align: center;
     margin-right: 15%;
+}
+
+footer a {
+    font-family: 'Lora', serif;
+    margin-left: 12%;
+    margin-top: 35px;
+    color: white;
+    text-align: center;
 }
