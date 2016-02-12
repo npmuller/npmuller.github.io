@@ -51,7 +51,7 @@ body {
     margin-left: 46%;
 }
 
-footer {
+footer, footer a {
     font-size: 9px;
     font-family: 'Lora', serif;
     margin-left: 12%;
