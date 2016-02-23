@@ -2,6 +2,31 @@
 white-space:normal !important;
 }
 
+.mv-container {
+	background: 
+}
+
 .view-cap, .view-container-border {
-	background-color: rgb(67, 119, 167)!important;
+	background: #4377A7!important;
+}
+
+.mv-daynames-table {
+    background: #4377A7;
+	color: white;
+}
+
+.st-dtitle, .st-dtitle-nonmonth {
+    background: #4377A7;
+	color: white;
+	border-bottom: 4px solid #DEBB11;
+}
+
+.st-dtitle-nonmonth {
+    background: #4377A7;
+	color: #ddd;
+	border-bottom: 4px solid #DEBB11;
+
+.mv-event-container {
+	border-top: 1px solid #DEBB11;
+	border-bottom: 1px solid #DEBB11;
 }
